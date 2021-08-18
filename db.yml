@@ -2,8 +2,8 @@
 # for registry development
 norgast:
   host: db
-  name: NoRGastReportDataStaging
+  name: NRAReportDataStaging
   user: root
   pass: root
-  disp: ForNorgastDevOnly
+  disp: ForNRADevOnly
 
