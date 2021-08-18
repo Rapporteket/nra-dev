@@ -8,32 +8,13 @@ LABEL maintainer "Are Edvardsen <are.edvardsen@helse-nord.no>"
 COPY --chown=rstudio:rstudio db.yml /home/rstudio/rap_config/
 RUN cat /home/rstudio/rap_config/db.yml >> /home/rstudio/rap_config/dbConfig.yml \
     && rm /home/rstudio/rap_config/db.yml \
-    && R -e "install.packages(c('binom',\
-                                'covr',\
-                                'dplyr',\
-                                'DT', \
-                                'janitor',\
+    && R -e "install.packages(c('DT', \
                                 'kableExtra',\
                                 'knitr',\
-                                'lintr',\
-                                'lubridate',\
-                                'magrittr',\
-                                'readr',\
-                                'rlang',\
-                                'rmarkdown',\
-                                'rpivotTable',\
-                                'shiny',\
-                                'shinyalert',\
-                                'shinycssloaders',\
-                                'stringr',\
                                 'testthat',\
-                                'tidyselect',\
                                 'xtable',\
-                                'plotrix',\
                                 'shinyjs',\
                                 'rapFigurer',\
-                                'survival',\
-                                'survminer',\
-                                'shinyWidgets',\
-                                'tidyverse'))" \
+                                'tidyverse',\
+                                'rapbase'))" \
     && R -e "remotes::install_github(c('Rapporteket/rapbase', 'Rapporteket/rapFigurer'))"
