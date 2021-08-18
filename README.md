@@ -3,7 +3,7 @@
 Speed up development processes for norgast...
 
 ### Build
-```docker build -t rapporteket/norgast-dev .```
+```docker build -t rapporteket/nra-dev .```
 
 ### Run
 ```docker-compose up```
