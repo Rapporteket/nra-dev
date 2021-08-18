@@ -1,6 +1,6 @@
 
 # for registry development
-norgast:
+nra:
   host: db
   name: NRAReportDataStaging
   user: root
