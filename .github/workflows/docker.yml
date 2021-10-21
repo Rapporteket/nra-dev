@@ -8,6 +8,8 @@ on:
   pull_request:
     branches:
       - master
+  schedule:
+    - cron: '0 3 * * 0' # run Sundays at 3 AM
 
 jobs:
   push_to_registries:
