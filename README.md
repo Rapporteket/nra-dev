@@ -1,6 +1,6 @@
 ## Tailored development docker image for nra
 
-Speed up development processes for norgast...
+Speed up development processes for nra
 
 ### Build
 ```docker build -t rapporteket/nra-dev .```
