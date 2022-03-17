@@ -1,4 +1,4 @@
-## Tailored development docker image for norgast
+## Tailored development docker image for nra
 
 Speed up development processes for norgast...
 
