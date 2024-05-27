@@ -7,4 +7,3 @@ Speed up development processes for nra
 
 ### Run
 ```docker-compose up``` from the registry project/repo.
-
